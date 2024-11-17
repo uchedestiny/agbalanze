@@ -1,0 +1,26 @@
+DirectoryIndex index.php
+
+
+RewriteEngine On
+
+
+# RewriteRule ^photo-speaks$ index.php [NC,L]
+
+
+
+
+
+
+
+# -- Redirecting image folder messages
+# RewriteRule ^images/$ images/coouth-og-graph.jpg [NC,L]
+# RewriteRule ^images/hods/$ images/coouth-og-graph.jpg [NC,L]
+# RewriteRule ^images/facilities/$ images/coouth-og-graph.jpg [NC,L]
+# RewriteRule ^images/gallery/$ images/coouth-og-graph.jpg [NC,L]
+# RewriteRule ^images/bg/$ images/coouth-og-graph.jpg [NC,L]
+# RewriteRule ^images/blog/$ images/coouth-og-graph.jpg [NC,L]
+
+
+# Error 404
+FallbackResource index.php
+

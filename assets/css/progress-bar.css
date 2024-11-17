@@ -1,0 +1,25 @@
+.animated-progress-bar {
+    width: 100%; 
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #ddd;
+    border-radius: 6px;
+    height: 15px;
+}
+.animated-progress {
+    width: 0;
+    border-radius: 6px;
+    height: 15px;
+    text-align: right;
+    position: relative;
+}
+.animated-progress-bar .animated-progress span {
+    font-size: 14px !important;
+    display: inline-block !important;
+    position: absolute;
+    top: -3px; 
+    right: 10px;
+    color: white !important;
+
+}
